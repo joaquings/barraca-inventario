@@ -13,14 +13,19 @@
     <h2 class="page-title">Registro de productos</h2>
 
     <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
+        <label for="id">Id #</label><br>
+        <input type="text" id="productId" name="productId" value="Número de id único"><br><br>
+        <label for="name">Nombre del producto</label><br>
+        <input type="text" id="productName" name="productName" value="Ladrillos"><br><br>
+        <label for="name">Descripción del producto</label><br>
+        <input type="textarea" id="productDesc" name="productDesc" value="Ladrillos de barro"><br><br>
+        <label for="name">Stock (cant.)</label><br>
+        <input type="number" id="productStock" name="productStock" min="0"><br><br>
+        <label for="name">Costo ($U)</label><br>
+        <input type="number" id="productCost" name="productCost" min="0"><br><br>
+        <input type="submit" value="Confirmar" class="confirm-btn">
     </form>
 
-    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 </body>
 
