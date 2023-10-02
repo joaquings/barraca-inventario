@@ -17,3 +17,15 @@ body{
     color: white;
     padding: 10px;
 }
+
+input{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-style: none;
+    padding: 10px;
+}
+
+.productForm{
+    border: 1px solid gray;
+    padding: 20px;
+}
