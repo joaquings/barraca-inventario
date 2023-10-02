@@ -24,3 +24,8 @@ input{
     border-style: none;
     padding: 10px;
 }
+
+.productForm{
+    border: 1px solid gray;
+    padding: 20px;
+}
